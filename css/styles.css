@@ -1,0 +1,230 @@
+:root{
+    --main-colot-text: #333333;
+    
+}
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    display: block;
+    max-width: 100%;   
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    
+}
+/* HEADER */
+.header{
+    background-color:var(--main-colot-text);
+    background-image:url(../img/photo.jpg);
+    background-repeat: no-repeat;
+    width: 1400px;
+    background-size: auto;
+    margin: auto;
+    max-width: 1440px;
+    color: #ffffff;
+    padding-bottom: 120px;
+}
+.nav-logo{
+    margin-bottom: 115px;
+}
+.nav{
+    display: flex;
+}
+.nav-list{
+    display: flex;
+    margin-top: 55px;
+    margin-left: auto;
+}
+.nav-item:not(:last-child){
+    margin-right: 50px;
+
+}
+.nav-link{
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 19px;
+}
+.head-title{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 53px;
+    margin-bottom: 20px;
+}
+.head-button{
+    background-color: #DBA069;
+    min-width: 245px;
+    min-height: 65px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.38;
+    color: var(--main-colot-text);
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-text-info{
+    display: flex;
+}
+.head-text{
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+.head-desc{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    width: 150px;
+    display: flex;
+    flex-direction: unset;
+}
+.head-desc:not(:last-child){
+    margin-right: 26px;
+}
+.head-span{
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 0.83;
+    margin-right: 20px;
+}
+.head-container-left{
+    display: flex;
+}
+/* info */
+.container-info-left{
+    width: 50%;
+}
+.section-info{
+    padding-top: 120px;
+    display: flex;
+}
+.head-info{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.18;
+    margin-bottom: 60px;
+}
+.title-info{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.info-text{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.1;
+    margin-bottom: 60px;
+    white-space: normal;
+}
+.info-desc{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.1;
+}
+.img-info{
+    margin-left: auto;
+    margin-bottom: 144px;
+}
+.container-info-right{
+    margin-left: 180px;
+}
+.container-info-right .info-text{
+    width: 429px;  
+}
+/* cottage */
+.container-bg{
+    background-color: rgba(132, 34, 49, 0.05);
+}
+.section-cottage{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.cottage-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.18;
+    margin-bottom: 28px;
+}
+.cottage-size{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    
+}
+.container-cottage-right{
+    padding-top: 96px;
+}
+/* LOCATIOn */
+.section-location{
+    padding-top: 90px;
+    padding-bottom: 90px; 
+    display: flex;
+}
+.location-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.18;
+    margin-bottom: 48px;
+}
+.location-text{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.1;
+    width: 480px;
+}
+.container-location-left{
+    display: flex;
+    flex-direction: column;
+}
+.location-img{
+    margin-left: 119px;
+    border-right: 42px solid #842231;
+    border-bottom: 42px solid #842231;
+}
+/* excellence */ 
+.section-excellence{
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-color: #F9F4F4;
+    padding-left: 140px;
+    
+}
+.excellence-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.18;
+    margin-bottom: 40px;
+}
+.excellence-list{
+    display: flex;
+}
+.excellence-item{
+    margin-right: 120px;
+}
+.excellence-text{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.1;
+}
